@@ -60,7 +60,7 @@ export function Login() {
   };
 
   return (
-    <>
+    <main className="bg-bg">
       <h1 className="text-4xl font-bold text-red-500">YOLO</h1>
       <input
         type="text"
@@ -75,6 +75,6 @@ export function Login() {
         {isPending ? <>...</> : "Register with passkey"}
       </button>
       {result && <div>{result}</div>}
-    </>
+    </main>
   );
 }
