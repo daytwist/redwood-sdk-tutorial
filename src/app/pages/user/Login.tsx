@@ -61,6 +61,7 @@ export function Login() {
 
   return (
     <>
+      <h1 className="text-4xl font-bold text-red-500">YOLO</h1>
       <input
         type="text"
         value={username}

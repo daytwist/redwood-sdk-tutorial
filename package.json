@@ -31,7 +31,9 @@
     "@prisma/client": "~6.5.0",
     "@simplewebauthn/browser": "^13.1.0",
     "@simplewebauthn/server": "^13.1.1",
-    "rwsdk": "0.0.81"
+    "@tailwindcss/vite": "^4.1.5",
+    "rwsdk": "0.0.81",
+    "tailwindcss": "^4.1.5"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
