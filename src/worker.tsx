@@ -60,5 +60,7 @@ export default defineApp([
       Home,
     ]),
     prefix("/user", userRoutes),
+    route("/legal/privacy", () => <h1>Privacy Policy</h1>),
+    route("/legal/terms", () => <h1>Terms of Service</h1>),
   ]),
 ]);
